@@ -5,8 +5,10 @@ const x = localStorage.getItem('x')
 const xObject = JSON.parse(x)
 // 如果第一次灭有xObject,则构建一个数据结构，把连接等数据存储到里面
 const hashMap = xObject || [
-    { logo: 'A', url: 'https://www.acfun.cn/' },
     { logo: 'B', url: 'https://www.bilibili.com/' },
+    { logo: 'F', url: 'http://f2er.club/' },
+    { logo: 'J', url: 'https://juejin.im/' },
+    { logo: 'D', url: 'https://dytiger.github.io/index.html' }
 ];
 
 const simplifyUrl = (url) => {

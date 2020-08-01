@@ -125,11 +125,17 @@ var x = localStorage.getItem('x');
 var xObject = JSON.parse(x); // 如果第一次灭有xObject,则构建一个数据结构，把连接等数据存储到里面
 
 var hashMap = xObject || [{
-  logo: 'A',
-  url: 'https://www.acfun.cn/'
-}, {
   logo: 'B',
   url: 'https://www.bilibili.com/'
+}, {
+  logo: 'F',
+  url: 'http://f2er.club/'
+}, {
+  logo: 'J',
+  url: 'https://juejin.im/'
+}, {
+  logo: 'D',
+  url: 'https://dytiger.github.io/index.html'
 }];
 
 var simplifyUrl = function simplifyUrl(url) {
@@ -188,4 +194,4 @@ $(document).on('keypress', function (e) {
   }
 });
 },{}]},{},["epB2"], null)
-//# sourceMappingURL=main.4f5d02d0.js.map
+//# sourceMappingURL=main.cca0cb9c.js.map
